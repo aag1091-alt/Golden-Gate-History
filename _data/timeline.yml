@@ -124,3 +124,12 @@
   category: "Design & Engineering"
   quote: "The fog comes on little cat feet. It sits looking over harbor and city on silent haunches and then moves on."
   quote_author: "Carl Sandburg"
+
+- id: "submarine-net-across-the-gate-1942"
+  title: "The Steel Curtain Beneath the Waves"
+  subtitle: "After Pearl Harbor, the Navy stretched a massive anti-submarine net across the Golden Gate, turning the bridge into the gateway of a fortress."
+  event_date: "1942-03-10"
+  era: "Opening and Early Glory (1937–1945)"
+  category: "Cultural & Symbolic"
+  quote: "The Golden Gate is the front door to the Pacific, and we intend to keep it locked."
+  quote_author: "Admiral John W. Greenslade"

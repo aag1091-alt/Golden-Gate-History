@@ -65,6 +65,11 @@
       "id": "billionth-car-crossing-1985",
       "title": "The Billionth Car Across the Golden Gate",
       "date": "1985"
+    },
+    {
+      "id": "fog-horns-golden-gate-1937",
+      "title": "The Foghorns That Guide the Lost",
+      "date": "1937"
     }
   ],
   "used_images": [
@@ -79,9 +84,10 @@
     "File:Golden Gate bridge 3.jpg",
     "File:Remembering the Loma Prieta Earthquake 25 Years Later (15586202245) (cropped).jpg",
     "File:Road Zipper 04 2015 Golden Gate SFO 2066.jpg",
-    "File:Golden Gate Bridge and San Francisco skyline from Hawk Hill at Blue Hour dllu.jpg"
+    "File:Golden Gate Bridge and San Francisco skyline from Hawk Hill at Blue Hour dllu.jpg",
+    "File:San Francisco (CA, USA), Golden Gate Bridge -- 2022 -- 3022.jpg"
   ],
-  "last_run": "2026-03-13T23:30:19.588052",
+  "last_run": "2026-03-13T23:34:42.765388",
   "eras": [
     {
       "name": "The Impossible Dream (1872\u20131916)",
