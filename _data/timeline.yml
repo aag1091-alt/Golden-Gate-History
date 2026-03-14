@@ -106,3 +106,12 @@
   category: "Maintenance & Renovation"
   quote: "This is the single most significant safety feature added to the Golden Gate Bridge since the day it opened."
   quote_author: "Denis Mulligan"
+
+- id: "billionth-car-crossing-1985"
+  title: "The Billionth Car Across the Golden Gate"
+  subtitle: "A routine commute turned a dentist into a celebrity when his car was flagged as the bridge's one-billionth vehicle."
+  event_date: "1985-02-22"
+  era: "Cultural Icon and Dark Symbol (1971–1997)"
+  category: "Cultural & Symbolic"
+  quote: "I was just driving to work. I had no idea I was about to become the billionth anything."
+  quote_author: "Arthur Molinari"

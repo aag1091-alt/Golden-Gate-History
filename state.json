@@ -55,6 +55,11 @@
       "id": "loma-prieta-earthquake-test-1989",
       "title": "The Earthquake the Bridge Survived",
       "date": "1989"
+    },
+    {
+      "id": "zipper-barrier-2015",
+      "title": "The Zipper That Tamed Head-On Death",
+      "date": "2015"
     }
   ],
   "used_images": [
@@ -67,9 +72,10 @@
     "File:Joseph Strauss Memorial.jpg",
     "File:Golden Gate Bridge as seen from Marshall\u2019s Beach, March 2018.jpg",
     "File:Golden Gate bridge 3.jpg",
-    "File:Remembering the Loma Prieta Earthquake 25 Years Later (15586202245) (cropped).jpg"
+    "File:Remembering the Loma Prieta Earthquake 25 Years Later (15586202245) (cropped).jpg",
+    "File:Road Zipper 04 2015 Golden Gate SFO 2066.jpg"
   ],
-  "last_run": "2026-03-13T23:10:26.091119",
+  "last_run": "2026-03-13T23:13:22.396015",
   "eras": [
     {
       "name": "The Impossible Dream (1872\u20131916)",
