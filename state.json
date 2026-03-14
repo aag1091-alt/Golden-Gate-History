@@ -1,8 +1,64 @@
 {
   "topic": "",
   "covered": [],
-  "last_run": null,
-  "eras": [],
-  "categories": [],
-  "blog_config": false
+  "last_run": "2026-03-13T21:23:47.609724",
+  "eras": [
+    {
+      "name": "The Impossible Crossing (1869\u20131916)",
+      "short_name": "The Impossible Crossing",
+      "period": "1869\u20131916",
+      "description": "For decades, engineers and dreamers floated the idea of spanning the Golden Gate strait, but the treacherous currents, deep waters, and punishing fog made it seem impossible. Railroad magnates and early bridge advocates debated whether any structure could survive the strait's violent tidal forces. The idea simmered as San Francisco grew from a gold rush boomtown into a major metropolis hungry for connection to its northern hinterlands."
+    },
+    {
+      "name": "Strauss and the Political Battle (1917\u20131929)",
+      "short_name": "The Political Battle",
+      "period": "1917\u20131929",
+      "description": "Joseph Strauss, a tenacious but little-known bridge engineer, launched a relentless campaign to convince skeptical politicians, hostile ferry operators, and wary taxpayers that a bridge across the Golden Gate was both feasible and necessary. He navigated brutal opposition from the Southern Pacific Railroad, the War Department, and rival engineers who mocked his early ungainly designs. The creation of the Golden Gate Bridge and Highway District in 1928 finally gave the project a legal and financial framework to move forward."
+    },
+    {
+      "name": "Depression-Era Gamble (1930\u20131933)",
+      "short_name": "Depression-Era Gamble",
+      "period": "1930\u20131933",
+      "description": "In the depths of the Great Depression, Bay Area residents voted to put up their homes, farms, and businesses as collateral for a $35 million bond issue \u2014 an extraordinary act of civic faith. Bank of America founder A.P. Giannini stepped in to buy the bonds when no other institution would. Behind the scenes, consulting engineer Charles Ellis quietly redesigned Strauss's clumsy original concept into the elegant suspension bridge we know today, only to be fired and written out of the story for decades."
+    },
+    {
+      "name": "Building in the Sky (1933\u20131937)",
+      "short_name": "Building in the Sky",
+      "period": "1933\u20131937",
+      "description": "Construction began on January 5, 1933, and the project became one of the most dangerous engineering feats of the twentieth century, with workers battling fog, wind, and currents hundreds of feet above the strait. A pioneering safety net strung beneath the bridge deck saved nineteen men who became known as the Halfway-to-Hell Club, though eleven workers died when a scaffold tore through the net in February 1937. The bridge opened on May 27, 1937, and approximately 200,000 pedestrians streamed across on its first day."
+    },
+    {
+      "name": "Icon and Lifeline (1937\u20131964)",
+      "short_name": "Icon and Lifeline",
+      "period": "1937\u20131964",
+      "description": "The Golden Gate Bridge rapidly became the most photographed bridge on Earth, its International Orange towers emerging as the defining symbol of San Francisco and the American West. It transformed the economy of Marin and Sonoma counties, turning rural communities into commuter suburbs almost overnight. The bridge also became an unexpected site of tragedy, as suicides from the span began accumulating at a grim pace that would haunt the structure's legacy for generations."
+    },
+    {
+      "name": "Stress and Survival (1964\u20131989)",
+      "short_name": "Stress and Survival",
+      "period": "1964\u20131989",
+      "description": "As traffic volumes exploded beyond anything the original designers imagined, engineers confronted alarming structural realities \u2014 the bridge's roadway deck was never built for the loads it now carried daily. The fiftieth anniversary celebration in 1987 drew so many pedestrians that the bridge deck visibly flattened under their weight, a moment that shocked engineers and accelerated seismic retrofit planning. The 1989 Loma Prieta earthquake, which collapsed a section of the Bay Bridge, turned Golden Gate seismic vulnerability from an engineering concern into an urgent public crisis."
+    },
+    {
+      "name": "Retrofit and Reinvention (1989\u20132017)",
+      "short_name": "Retrofit and Reinvention",
+      "period": "1989\u20132017",
+      "description": "A massive, multi-decade seismic retrofit program replaced the bridge's approach viaducts and strengthened its towers and cables to withstand a magnitude 8.3 earthquake, costing over $400 million in total. The district introduced electronic tolling, movable median barriers to prevent head-on collisions, and began serious consideration of a suicide deterrent system after decades of painful public debate. The bridge's eightieth anniversary found it safer and stronger than ever, yet still wrestling with its dual identity as an engineering marvel and a site of profound human suffering."
+    },
+    {
+      "name": "The Net and the Next Century (2017\u2013Present)",
+      "short_name": "The Net and the Next Century",
+      "period": "2017\u2013Present",
+      "description": "After more than seventy years of advocacy and anguish, construction of a stainless steel suicide deterrent net finally began, marking a historic shift in how the bridge confronts its darkest legacy. New challenges emerged as well \u2014 retrofit wind screens installed to protect cyclists unexpectedly caused the bridge to emit an eerie harmonic hum audible across the city in high winds, a phenomenon engineers scrambled to fix. As the bridge approaches its centennial, it remains a living structure, constantly maintained and reimagined to serve a region and a world that still sees it as one of humanity's greatest built achievements."
+    }
+  ],
+  "categories": [
+    "Design & Engineering",
+    "Construction",
+    "Political & Funding",
+    "Cultural & Symbolic",
+    "Disasters & Incidents",
+    "Maintenance & Renovation"
+  ],
+  "blog_config": true
 }
