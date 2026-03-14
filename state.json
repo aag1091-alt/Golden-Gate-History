@@ -135,6 +135,11 @@
       "id": "the-bridge-that-sings-2020",
       "title": "The Bridge That Sings",
       "date": "2020"
+    },
+    {
+      "id": "groundbreaking-at-crissys-field-1933",
+      "title": "The First Shovel in the Sand",
+      "date": "1933"
     }
   ],
   "used_images": [
@@ -163,9 +168,10 @@
     "File:Amadeo Giannini-1922.jpg",
     "File:Golden Gate Ferry Logo.jpg",
     "File:San Francisco Bay, Golden Gate Bridge and Marin Headlands at sunset.jpg",
-    "File:San francisco in fog with rays.jpg"
+    "File:San francisco in fog with rays.jpg",
+    "File:GoldenGateBridge-001.jpg"
   ],
-  "last_run": "2026-03-14T09:22:07.342426",
+  "last_run": "2026-03-14T09:25:44.840150",
   "eras": [
     {
       "name": "The Impossible Dream (1872\u20131916)",
