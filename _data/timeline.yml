@@ -295,3 +295,12 @@
   category: "Cultural & Symbolic"
   quote: "The Golden Gate Bridge is a structure of such magnificence that it transcends its utilitarian purpose and becomes a work of art."
   quote_author: "American Society of Civil Engineers"
+
+- id: "war-department-permit-1924"
+  title: "The Military Said No"
+  subtitle: "The U.S. War Department nearly killed the Golden Gate Bridge over fears an enemy could bomb it and seal San Francisco Bay forever."
+  event_date: "1924-12-20"
+  era: "The Fight to Build (1917–1929)"
+  category: "Political & Funding"
+  quote: "The bridge would be a menace to navigation and a positive detriment to the defense of the harbor."
+  quote_author: "Major General George B. Duncan"

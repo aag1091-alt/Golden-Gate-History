@@ -160,6 +160,11 @@
       "id": "park-that-saved-the-headlands-1972",
       "title": "The Park That Saved the Headlands",
       "date": "1972"
+    },
+    {
+      "id": "modern-wonder-of-the-world-1994",
+      "title": "One of Seven Wonders of the Modern World",
+      "date": "1994"
     }
   ],
   "used_images": [
@@ -192,9 +197,10 @@
     "File:GoldenGateBridge-001.jpg",
     "File:Refraction of Golden Gate Bridge in rain droplets 1.jpg",
     "File:Line scan photo of nine car BART C1 train in 2017.jpg",
-    "File:Golden Gate Panorama.jpg"
+    "File:Golden Gate Panorama.jpg",
+    "File:San Francisco (CA, USA), Alcatraz, Blick auf Golden Gate Bridge -- 2022 -- 3163.jpg"
   ],
-  "last_run": "2026-03-14T10:13:45.427718",
+  "last_run": "2026-03-14T11:29:55.857504",
   "eras": [
     {
       "name": "The Impossible Dream (1872\u20131916)",
