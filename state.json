@@ -1,7 +1,13 @@
 {
   "topic": "",
-  "covered": [],
-  "last_run": "2026-03-13T21:23:47.609724",
+  "covered": [
+    {
+      "id": "pedestrian-day-opening-1937",
+      "title": "The Day 200,000 People Walked the Bridge",
+      "date": "1937"
+    }
+  ],
+  "last_run": "2026-03-13T21:26:33.068627",
   "eras": [
     {
       "name": "The Impossible Crossing (1869\u20131916)",
