@@ -43,3 +43,12 @@
   category: "Cultural & Symbolic"
   quote: "The bridge is yours — use it, enjoy it, and tell your children and your grandchildren that you were here today."
   quote_author: "Angelo Rossi, Mayor of San Francisco"
+
+- id: "charles-ellis-unsung-engineer-1931"
+  title: "The Engineer Erased from History"
+  subtitle: "Joseph Strauss fired Charles Ellis, the man who actually designed the Golden Gate Bridge, and removed his name from every record."
+  event_date: "1931-11-12"
+  era: "The Fight to Build (1917–1929)"
+  category: "Design & Engineering"
+  quote: "He was the man most responsible for the design of the bridge, but his name was struck from every official document."
+  quote_author: "Henry Petroski"
