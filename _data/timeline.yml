@@ -205,3 +205,12 @@
   category: "Design & Engineering"
   quote: "The simple and continuous structural lines may be emphasized by the decorative treatment so that the simpler the structure appears the more successful the treatment will be judged."
   quote_author: "Irving Morrow"
+
+- id: "the-banker-who-believed-1932"
+  title: "The Banker Who Believed"
+  subtitle: "When no financier in America would touch the bridge bonds during the Depression, A.P. Giannini's Bank of America bought the entire issue and saved the project."
+  event_date: "1932-11-01"
+  era: "Depression-Era Construction (1930–1937)"
+  category: "Political & Funding"
+  quote: "We'll take the bonds."
+  quote_author: "A.P. Giannini"

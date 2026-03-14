@@ -110,6 +110,11 @@
       "id": "seiden-study-1978",
       "title": "Where Are They Now?",
       "date": "1978"
+    },
+    {
+      "id": "irving-morrow-art-deco-1930",
+      "title": "The Architect Who Made Steel Beautiful",
+      "date": "1930"
     }
   ],
   "used_images": [
@@ -133,9 +138,10 @@
     "File:Vertigo 1958 trailer Kim Novak at Golden Gate Bridge Fort Point.jpg",
     "File:Aerial view of Golden Gate Bridge from the south dllu.jpg",
     "File:Golden Gate Bridge bw.jpg",
-    "File:San Francisco (CA, USA), Golden Gate Bridge -- 2022 -- 3024 (bw).jpg"
+    "File:San Francisco (CA, USA), Golden Gate Bridge -- 2022 -- 3024 (bw).jpg",
+    "File:GoldenGateBridge BakerBeach MC.jpg"
   ],
-  "last_run": "2026-03-14T00:30:22.694251",
+  "last_run": "2026-03-14T00:34:00.574660",
   "eras": [
     {
       "name": "The Impossible Dream (1872\u20131916)",
