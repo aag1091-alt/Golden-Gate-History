@@ -80,6 +80,11 @@
       "id": "all-electronic-tolling-2013",
       "title": "The Last Toll Taker's Final Shift",
       "date": "2013"
+    },
+    {
+      "id": "strauss-original-ugly-design-1921",
+      "title": "The Ugliest Bridge Never Built",
+      "date": "1921"
     }
   ],
   "used_images": [
@@ -97,9 +102,10 @@
     "File:Golden Gate Bridge and San Francisco skyline from Hawk Hill at Blue Hour dllu.jpg",
     "File:San Francisco (CA, USA), Golden Gate Bridge -- 2022 -- 3022.jpg",
     "File:Flickr - Official U.S. Navy Imagery - A helicopter lands during an air show as part of a tiger cruise for family and friends of the crew..jpg",
-    "File:Golden Gate Bridge as seen from Battery East.jpg"
+    "File:Golden Gate Bridge as seen from Battery East.jpg",
+    "File:Joseph Strauss statute Golden Gate Bridge 09 2017 6162.jpg"
   ],
-  "last_run": "2026-03-13T23:43:32.791944",
+  "last_run": "2026-03-13T23:50:52.896835",
   "eras": [
     {
       "name": "The Impossible Dream (1872\u20131916)",
