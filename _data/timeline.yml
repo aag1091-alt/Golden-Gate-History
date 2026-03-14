@@ -62,3 +62,12 @@
   category: "Disasters & Incidents"
   quote: "The bridge was never designed to carry that kind of load. We were watching something that had never happened before."
   quote_author: "Daniel E. Mohn, Golden Gate Bridge District engineer"
+
+- id: "ellis-uncredited-engineer-1931"
+  title: "The Man Who Really Designed the Bridge"
+  subtitle: "Charles Ellis performed the complex structural calculations that made the Golden Gate Bridge possible, then was fired and erased from its history."
+  event_date: "1931-11-12"
+  era: "Strauss and the Political Battle (1917–1929)"
+  category: "Design & Engineering"
+  quote: "I have been quietly investigating the matter from the engineering standpoint and have come to the conclusion that it can be done."
+  quote_author: "Charles Alton Ellis"
