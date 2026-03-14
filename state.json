@@ -145,6 +145,11 @@
       "id": "steel-deck-replacement-1986",
       "title": "The 11,000-Ton Diet",
       "date": "1986"
+    },
+    {
+      "id": "fort-point-and-the-great-arch-1933",
+      "title": "The Fort That Bent a Bridge",
+      "date": "1933"
     }
   ],
   "used_images": [
@@ -177,7 +182,7 @@
     "File:GoldenGateBridge-001.jpg",
     "File:Refraction of Golden Gate Bridge in rain droplets 1.jpg"
   ],
-  "last_run": "2026-03-14T09:44:24.371091",
+  "last_run": "2026-03-14T09:49:26.477251",
   "eras": [
     {
       "name": "The Impossible Dream (1872\u20131916)",

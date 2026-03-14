@@ -268,3 +268,12 @@
   category: "Design & Engineering"
   quote: "The old fort, with its war-scarred walls, still stands guard beneath the bridge, a monument to the skill and daring of earlier generations."
   quote_author: "Joseph Strauss"
+
+- id: "the-train-that-never-crossed-1962"
+  title: "The Train That Never Crossed"
+  subtitle: "Marin County pulled out of BART, killing the plan to run trains across the Golden Gate Bridge and shaping Bay Area transit for generations."
+  event_date: "1962-01-15"
+  era: "The Automobile Age (1946–1970)"
+  category: "Political & Funding"
+  quote: "The counties north of the Golden Gate had the chance to join a regional rail system and chose instead to remain dependent on the automobile and the bridge."
+  quote_author: "Bay Area transportation historian Louise Nelson Dyble"
