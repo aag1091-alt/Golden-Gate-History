@@ -95,6 +95,11 @@
       "id": "vertigo-hitchcock-filming-1958",
       "title": "The Bridge That Starred in Vertigo",
       "date": "1958"
+    },
+    {
+      "id": "spinning-the-cables-1935",
+      "title": "27,572 Wires Across the Sky",
+      "date": "1935"
     }
   ],
   "used_images": [
@@ -115,9 +120,10 @@
     "File:Golden Gate Bridge as seen from Battery East.jpg",
     "File:Joseph Strauss statute Golden Gate Bridge 09 2017 6162.jpg",
     "File:Crissy Field beach and Golden Gate Bridge.jpg",
-    "File:Vertigo 1958 trailer Kim Novak at Golden Gate Bridge Fort Point.jpg"
+    "File:Vertigo 1958 trailer Kim Novak at Golden Gate Bridge Fort Point.jpg",
+    "File:Aerial view of Golden Gate Bridge from the south dllu.jpg"
   ],
-  "last_run": "2026-03-14T00:01:27.679232",
+  "last_run": "2026-03-14T00:19:45.459618",
   "eras": [
     {
       "name": "The Impossible Dream (1872\u20131916)",
