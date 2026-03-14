@@ -8,3 +8,12 @@
 #   category: string (must match a category in _data/blog.yml)
 #   quote: string (optional)
 #   quote_author: string (optional)
+
+- id: "pedestrian-day-opening-1937"
+  title: "The Day 200,000 People Walked the Bridge"
+  subtitle: "On May 27, 1937, the Golden Gate Bridge opened to pedestrians first — and a quarter-million San Franciscans stampeded across it before a single car ever would."
+  event_date: "1937-05-27"
+  era: "Icon and Lifeline (1937–1964)"
+  category: "Cultural & Symbolic"
+  quote: "This bridge needs neither combatant nor defender. It is its own best testimony."
+  quote_author: "Joseph Strauss"
