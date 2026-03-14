@@ -1,0 +1,9 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p>{{ site.data.blog.footer_text }}</p>
+    <p class="footer-links">
+      <a href="{{ '/?view=timeline' | relative_url }}">Timeline</a>
+      {% if site.data.blog.github_url %} · <a href="{{ site.data.blog.github_url }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+    </p>
+  </div>
+</footer>

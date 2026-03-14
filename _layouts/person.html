@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+{% assign person_posts = site.posts | where_exp: "post", "post.people contains page.name" | sort: "event_date" %}
+
+<article class="person-page">
+  <div class="person-hero">
+    {% if page.image %}
+    <div class="person-portrait">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.name }}" loading="lazy">
+      {% if page.image_attribution %}<p class="person-portrait-credit">{{ page.image_attribution }}</p>{% endif %}
+    </div>
+    {% endif %}
+    <div class="person-hero-body">
+      <h1 class="person-name">{{ page.name }}</h1>
+      {% if page.known_for %}<p class="person-known-for">{{ page.known_for }}</p>{% endif %}
+      {% if page.accomplishments %}
+      <ul class="person-accomplishments">
+        {% for item in page.accomplishments %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if content and content != "" %}
+  <div class="person-bio">
+    {{ content }}
+  </div>
+  {% endif %}
+
+  {% if person_posts.size > 0 %}
+  <div class="person-milestones">
+    <h2 class="person-milestones-title">Milestones</h2>
+    <ul class="post-list">
+      {% for post in person_posts %}
+      <li class="post-card" data-category="{{ post.category }}">
+        {% if post.image %}
+        <a href="{{ post.url | relative_url }}" class="post-card-thumb">
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+        </a>
+        {% else %}
+        <div class="post-card-thumb post-card-thumb--empty">
+          <span>{{ post.event_date | date: "%Y" }}</span>
+        </div>
+        {% endif %}
+        <div class="post-card-body">
+          <div class="post-card-top">
+            {% if post.era %}<span class="era-badge">{{ post.era | split: '(' | first | strip }}</span>{% endif %}
+            {% if post.category %}<span class="category-badge cat-{{ post.category | downcase | replace: ' & ', '-' | replace: ' ', '-' }}">{{ post.category }}</span>{% endif %}
+          </div>
+          <div class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
+          {% if post.subtitle %}<p class="post-card-excerpt">{{ post.subtitle }}</p>{% endif %}
+          <div class="post-card-meta">
+            <span class="post-card-date">{{ post.event_date | date: "%Y" }}</span>
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  <div class="person-footer">
+    <a href="{{ '/people' | relative_url }}" class="back-link">← All people</a>
+  </div>
+</article>

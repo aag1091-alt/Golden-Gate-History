@@ -1,0 +1,67 @@
+<header class="site-header">
+  <div class="header-inner">
+    <div class="header-left">
+      <a href="{{ '/' | relative_url }}" class="site-title">{{ site.data.blog.title | default: site.title }}</a>
+      <p class="site-tagline">{{ site.data.blog.tagline | default: site.tagline }}</p>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+        <a href="{{ '/eras' | relative_url }}" {% if page.url contains 'eras' %}class="active"{% endif %}>Eras</a>
+        <a href="{{ '/people' | relative_url }}" {% if page.url contains 'people' %}class="active"{% endif %}>People</a>
+        <button class="nav-random" id="nav-random" title="Go to a random milestone">⚄ Random</button>
+      </nav>
+    </div>
+    <div class="header-right">
+      <div class="header-stats">
+        <div class="header-stat">
+          <span class="header-stat-number">{{ site.posts | size }}</span>
+          <span class="header-stat-label">Milestones</span>
+        </div>
+        <div class="header-stat">
+          <span class="header-stat-number">{{ site.data.blog.years_of_history | default: "100+" }}</span>
+          <span class="header-stat-label">Years of history</span>
+        </div>
+        <div class="header-stat">
+          <span class="header-stat-number">∞</span>
+          <span class="header-stat-label">Growing daily</span>
+        </div>
+      </div>
+      <div class="header-stat" id="read-progress-stat" style="display:none" title="Milestones you've read">
+        <span class="header-stat-number" id="read-count">0</span>
+        <span class="header-stat-label">Read</span>
+      </div>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">☀️</button>
+    </div>
+  </div>
+</header>
+
+<script>
+(function() {
+  const saved = localStorage.getItem('theme') || 'light';
+  document.body.className = 'theme-' + saved;
+  document.getElementById('theme-toggle').textContent = saved === 'dark' ? '☀️' : '🌙';
+})();
+
+document.getElementById('theme-toggle').addEventListener('click', function() {
+  const isDark = document.body.classList.contains('theme-dark');
+  const next = isDark ? 'light' : 'dark';
+  document.body.className = 'theme-' + next;
+  this.textContent = next === 'dark' ? '☀️' : '🌙';
+  localStorage.setItem('theme', next);
+});
+
+(function() {
+  const read = JSON.parse(localStorage.getItem('{{ site.data.blog.read_key | default: "history-read" }}') || '[]');
+  if (read.length > 0) {
+    document.getElementById('read-count').textContent = read.length;
+    document.getElementById('read-progress-stat').style.display = '';
+  }
+})();
+
+(function() {
+  const posts = [{% for post in site.posts %}{{ post.url | relative_url | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}];
+  document.getElementById('nav-random').addEventListener('click', function() {
+    const url = posts[Math.floor(Math.random() * posts.length)];
+    if (url) window.location.href = url;
+  });
+})();
+</script>

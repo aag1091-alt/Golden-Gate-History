@@ -1,0 +1,30 @@
+---
+layout: default
+title: Eras
+---
+
+<div class="eras-index-page">
+  <div class="timeline-header">
+    <h1>{{ site.data.blog.eras_page_title }}</h1>
+    <p>{{ site.data.blog.eras_page_description }}</p>
+  </div>
+
+  <div class="eras-index-list">
+    {% assign all_eras = site.eras %}
+    {% for era in all_eras %}
+    {% assign era_posts = site.posts | where: "era", era.name %}
+    {% capture era_num %}{{ forloop.index | prepend: "0" | slice: -2, 2 }}{% endcapture %}
+    <a href="{{ era.url | relative_url }}" class="era-row">
+      <div class="era-row-num">{{ era_num }}</div>
+      <div class="era-row-body">
+        <div class="era-row-name">{{ era.short_name }}</div>
+        <p class="era-row-desc">{{ era.content | strip_html | truncatewords: 22 }}</p>
+      </div>
+      <div class="era-row-aside">
+        <span class="era-row-period">{{ era.period }}</span>
+        <span class="era-row-count">{{ era_posts | size }} milestones</span>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+{% assign era_posts = site.posts | where: "era", page.name | sort: "event_date" %}
+
+<div class="era-page">
+
+  <div class="era-page-header">
+    <div class="era-page-meta">
+      <span class="era-period-badge">{{ page.period }}</span>
+      <span class="era-post-count">{{ era_posts | size }} milestones</span>
+    </div>
+    <h1 class="era-page-title">{{ page.short_name }}</h1>
+    <p class="era-page-blurb">{{ content }}</p>
+  </div>
+
+  <div class="era-milestones-list">
+    {% for post in era_posts %}
+    <a href="{{ post.url | relative_url }}" class="milestone-row">
+      <div class="milestone-row-year">{{ post.event_date | date: "%Y" }}</div>
+      <div class="milestone-row-body">
+        <div class="milestone-row-cat cat-{{ post.category | downcase | replace: ' & ', '-' | replace: ' ', '-' }}">{{ post.category }}</div>
+        <div class="milestone-row-title">{{ post.title }}</div>
+        {% if post.subtitle %}<p class="milestone-row-sub">{{ post.subtitle }}</p>{% endif %}
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+
+  <div class="era-page-footer">
+    <a href="{{ '/eras' | relative_url }}" class="back-link">← All eras</a>
+  </div>
+</div>
+

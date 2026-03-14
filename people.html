@@ -1,0 +1,78 @@
+---
+layout: default
+title: People
+---
+
+<div class="people-page">
+  <div class="timeline-header">
+    <h1>{{ site.data.blog.people_page_title }}</h1>
+    <p>{{ site.data.blog.people_page_description }}</p>
+  </div>
+
+  <div class="list-controls" style="margin-bottom:1.25rem">
+    <p class="section-title" style="margin:0">{{ site.people | size }} people</p>
+    <input type="search" id="people-search" class="search-input" placeholder="Search people… (press /)" aria-label="Search people">
+  </div>
+  <p id="people-no-results" class="no-results" style="display:none">No people match your search.</p>
+
+  {% assign all_people = site.people | sort: "name" %}
+
+  {% if all_people.size > 0 %}
+  <div class="people-grid" id="people-grid">
+    {% for person in all_people %}
+    {% assign person_posts = site.posts | where_exp: "post", "post.people contains person.name" %}
+    <a href="{{ person.url | relative_url }}" class="person-card-link" data-name="{{ person.name | downcase }}" data-known="{{ person.known_for | downcase }}">
+      <div class="person-card">
+        <div class="person-card-portrait">
+          {% if person.image %}
+          <img src="{{ person.image | relative_url }}" alt="{{ person.name }}" loading="lazy">
+          {% else %}
+          <div class="person-card-portrait-placeholder">{{ person.name | slice: 0 }}</div>
+          {% endif %}
+        </div>
+        <div class="person-card-body">
+          <div class="person-name">{{ person.name }}</div>
+          {% if person.known_for %}<div class="person-known-for-small">{{ person.known_for }}</div>{% endif %}
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p style="color:var(--text-muted)">Person pages are being generated — check back soon.</p>
+  {% endif %}
+</div>
+
+<script>
+(function() {
+  const search = document.getElementById('people-search');
+  const cards  = document.querySelectorAll('#people-grid .person-card-link');
+  const noRes  = document.getElementById('people-no-results');
+
+  function filter() {
+    const q = search.value.trim().toLowerCase();
+    let visible = 0;
+    cards.forEach(card => {
+      const match = !q || card.dataset.name.includes(q) || (card.dataset.known || '').includes(q);
+      card.style.display = match ? '' : 'none';
+      if (match) visible++;
+    });
+    noRes.style.display = visible === 0 ? '' : 'none';
+  }
+
+  search.addEventListener('input', filter);
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === '/' && document.activeElement !== search) {
+      e.preventDefault();
+      search.focus();
+      search.select();
+    }
+    if (e.key === 'Escape' && document.activeElement === search) {
+      search.blur();
+      search.value = '';
+      filter();
+    }
+  });
+})();
+</script>

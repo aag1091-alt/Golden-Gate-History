@@ -1,0 +1,135 @@
+---
+layout: default
+---
+
+<div class="reading-progress" id="reading-progress"></div>
+<button class="back-to-top" id="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+
+<script>
+(function() {
+  const bar = document.getElementById('reading-progress');
+  const btn = document.getElementById('back-to-top');
+  function update() {
+    const doc = document.documentElement;
+    const scrolled = doc.scrollTop || document.body.scrollTop;
+    const total = doc.scrollHeight - doc.clientHeight;
+    bar.style.width = (total > 0 ? (scrolled / total) * 100 : 0) + '%';
+    btn.classList.toggle('visible', scrolled > 400);
+  }
+  btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+  window.addEventListener('scroll', update, { passive: true });
+  update();
+})();
+</script>
+
+<script>
+(function() {
+  const key = '{{ site.data.blog.read_key | default: "history-read" }}';
+  const read = JSON.parse(localStorage.getItem(key) || '[]');
+  const id   = {{ page.id | jsonify }};
+  if (!read.includes(id)) { read.push(id); localStorage.setItem(key, JSON.stringify(read)); }
+})();
+</script>
+
+<article class="post">
+  <header class="post-header">
+    <div class="post-meta-top">
+      {% if page.era %}{% assign era_page = site.eras | where: "name", page.era | first %}{% if era_page %}<a href="{{ era_page.url | relative_url }}" class="era-badge">{{ page.era | split: '(' | first | strip }}</a>{% else %}<span class="era-badge">{{ page.era | split: '(' | first | strip }}</span>{% endif %}{% endif %}
+      {% if page.category %}<span class="category-badge cat-{{ page.category | downcase | replace: ' & ', '-' | replace: ' ', '-' }}">{{ page.category }}</span>{% endif %}
+    </div>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="post-subtitle">{{ page.subtitle }}</p>{% endif %}
+    <div class="post-meta">
+      <time datetime="{{ page.event_date | default: page.date | date_to_xmlschema }}">
+        {{ page.event_date | default: page.date | date: "%B %d, %Y" }}
+      </time>
+      {% if page.location %} · <span class="post-location">📍 {{ page.location }}</span>{% endif %}
+      {% if page.people %}
+        <div class="post-people">
+          <span class="people-label">People involved:</span>
+          {% for person in page.people %}{% assign person_page = site.people | where: "name", person | first %}{% if person_page %}<a href="{{ person_page.url | relative_url }}" class="person-tag">{{ person }}</a>{% else %}<span class="person-tag">{{ person }}</span>{% endif %}{% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </header>
+
+  {% if page.image %}
+  <div class="post-image">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" loading="lazy">
+    {% if page.image_caption %}<p class="image-caption">{{ page.image_caption }}</p>{% endif %}
+  </div>
+  {% endif %}
+
+  {% if page.quote %}
+  <blockquote class="post-quote">
+    <p>{{ page.quote }}</p>
+    {% if page.quote_author %}<cite>— {{ page.quote_author }}</cite>{% endif %}
+  </blockquote>
+  {% endif %}
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  {% if page.significance %}
+  <div class="significance-box">
+    <h3>Why This Mattered</h3>
+    <p>{{ page.significance }}</p>
+  </div>
+  {% endif %}
+
+  {% if page.references %}
+  <div class="post-references">
+    <h3>Further Reading</h3>
+    <ul>
+      {% for ref in page.references %}
+      <li><a href="{{ ref.url }}" target="_blank" rel="noopener">{{ ref.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% assign related = site.posts | where: "category", page.category | where_exp: "p", "p.id != page.id" | limit: 3 %}
+  {% if related.size > 0 %}
+  <div class="related-posts">
+    <h3 class="related-title">Related Milestones</h3>
+    <ul class="related-list">
+      {% for p in related %}
+      <li class="related-item">
+        {% if p.image %}<a href="{{ p.url | relative_url }}" class="related-thumb"><img src="{{ p.image | relative_url }}" alt="{{ p.title }}" loading="lazy"></a>{% endif %}
+        <div>
+          <a href="{{ p.url | relative_url }}" class="related-post-title">{{ p.title }}</a>
+          <span class="related-post-date">{{ p.event_date | date: "%Y" }}</span>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  <footer class="post-footer">
+    <div class="post-nav">
+      {% if page.previous %}
+      <a href="{{ page.previous.url | relative_url }}" class="post-nav-link post-nav-prev">
+        <span class="post-nav-dir">← Earlier</span>
+        <span class="post-nav-title">{{ page.previous.title }}</span>
+        <span class="post-nav-year">{{ page.previous.event_date | default: page.previous.date | date: "%Y" }}</span>
+      </a>
+      {% else %}
+      <span></span>
+      {% endif %}
+
+      {% if page.next %}
+      <a href="{{ page.next.url | relative_url }}" class="post-nav-link post-nav-next">
+        <span class="post-nav-dir">Later →</span>
+        <span class="post-nav-title">{{ page.next.title }}</span>
+        <span class="post-nav-year">{{ page.next.event_date | default: page.next.date | date: "%Y" }}</span>
+      </a>
+      {% endif %}
+    </div>
+    <div class="post-footer-links">
+      <a href="{{ '/' | relative_url }}" class="back-link">↩ Home</a>
+      <a href="{{ '/?view=timeline' | relative_url }}" class="back-link">Full timeline</a>
+    </div>
+  </footer>
+</article>

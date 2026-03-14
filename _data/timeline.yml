@@ -1,0 +1,10 @@
+# Milestone timeline. Populated by the generator.
+# Schema for each entry:
+#   id: string (url-safe slug)
+#   title: string
+#   subtitle: string
+#   event_date: YYYY-MM-DD
+#   era: string (must match an era name in _eras/)
+#   category: string (must match a category in _data/blog.yml)
+#   quote: string (optional)
+#   quote_author: string (optional)
