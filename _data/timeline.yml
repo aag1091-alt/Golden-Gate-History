@@ -187,3 +187,12 @@
   category: "Disasters & Incidents"
   quote: "This is where I get off. I'm going to jump."
   quote_author: "Harold Wobber"
+
+- id: "seiden-study-1978"
+  title: "Where Are They Now?"
+  subtitle: "A psychiatrist tracked 515 people stopped from jumping off the Golden Gate Bridge and discovered that 94% were still alive — reshaping how the world understands suicide."
+  event_date: "1978-06-01"
+  era: "Cultural Icon and Dark Symbol (1971–1997)"
+  category: "Cultural & Symbolic"
+  quote: "Suicidal behavior is crisis-oriented and time-limited. The impulse to destroy oneself does not last."
+  quote_author: "Richard H. Seiden"
