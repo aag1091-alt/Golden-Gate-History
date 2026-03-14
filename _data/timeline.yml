@@ -88,3 +88,12 @@
   category: "Disasters & Incidents"
   quote: "The bridge was swaying so violently that motorists abandoned their cars in the middle of the roadway and fled on foot."
   quote_author: "San Francisco Chronicle report, December 2, 1951"
+
+- id: "loma-prieta-earthquake-test-1989"
+  title: "The Earthquake the Bridge Survived"
+  subtitle: "The 1989 Loma Prieta earthquake proved the Golden Gate Bridge's resilience while exposing seismic vulnerabilities that would drive a decades-long retrofit."
+  event_date: "1989-10-17"
+  era: "Cultural Icon and Dark Symbol (1971–1997)"
+  category: "Disasters & Incidents"
+  quote: "The bridge was designed for a static concept of wind and weight. Earthquakes were simply not part of the vocabulary in the 1930s."
+  quote_author: "Charles Seim, seismic retrofit consulting engineer"
