@@ -53,3 +53,12 @@
   category: "Design & Engineering"
   quote: "The color of the bridge was not so much a calculated choice as a passionate conviction."
   quote_author: "Irving Morrow"
+
+- id: "bridge-flattens-under-crowd-1987"
+  title: "The Day the Bridge Went Flat"
+  subtitle: "On its 50th anniversary, 300,000 people packed the Golden Gate Bridge so tightly that its curved roadway flattened under the weight."
+  event_date: "1987-05-24"
+  era: "Stress and Survival (1964–1989)"
+  category: "Disasters & Incidents"
+  quote: "The bridge was never designed to carry that kind of load. We were watching something that had never happened before."
+  quote_author: "Daniel E. Mohn, Golden Gate Bridge District engineer"
