@@ -214,3 +214,12 @@
   category: "Political & Funding"
   quote: "We'll take the bonds."
   quote_author: "A.P. Giannini"
+
+- id: "return-of-the-ferries-1970"
+  title: "The Return of the Ferries"
+  subtitle: "Thirty-three years after the bridge killed ferry service, crushing traffic congestion forced the Golden Gate corridor to bring the boats back."
+  event_date: "1970-08-15"
+  era: "The Automobile Age (1946–1970)"
+  category: "Cultural & Symbolic"
+  quote: "The bridge alone cannot solve the transportation problems of the Golden Gate corridor."
+  quote_author: "Golden Gate Bridge Highway and Transportation District, 1969 report"
