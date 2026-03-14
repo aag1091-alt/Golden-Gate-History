@@ -241,3 +241,12 @@
   category: "Maintenance & Renovation"
   quote: "It's a humming, or a droning. Depending on the winds, it can be very loud."
   quote_author: "Paolo Cosulich-Schwartz, Golden Gate Bridge District spokesperson"
+
+- id: "groundbreaking-at-crissys-field-1933"
+  title: "The First Shovel in the Sand"
+  subtitle: "On January 5, 1933, construction officially began at Crissy Field as the Great Depression raged — putting a thousand desperate men to work on the impossible."
+  event_date: "1933-01-05"
+  era: "Depression-Era Construction (1930–1937)"
+  category: "Construction"
+  quote: "The bridge will provide work for those who sorely need it, and when completed will be the greatest single monument to the genius of man."
+  quote_author: "Angelo Rossi"
