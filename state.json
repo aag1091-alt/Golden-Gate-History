@@ -1,8 +1,16 @@
 {
   "topic": "",
-  "covered": [],
-  "used_images": [],
-  "last_run": "2026-03-13T21:48:57.196399",
+  "covered": [
+    {
+      "id": "safety-net-saves-nineteen-1936",
+      "title": "The Halfway-to-Hell Club",
+      "date": "1936"
+    }
+  ],
+  "used_images": [
+    "File:SF Golden Gate Bridge splash CA.jpg"
+  ],
+  "last_run": "2026-03-13T21:51:06.400569",
   "eras": [
     {
       "name": "The Impossible Dream (1872\u20131916)",
