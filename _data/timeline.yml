@@ -16,3 +16,12 @@
   category: "Disasters & Incidents"
   quote: "I looked out and the bridge was flat. I mean dead flat. I'd never seen anything like it. We were scared."
   quote_author: "Dale Luehring, Golden Gate Bridge maintenance supervisor"
+
+- id: "bond-vote-during-depression-1930"
+  title: "The $35 Million Gamble"
+  subtitle: "In the teeth of the Great Depression, voters in six counties approved a massive bond measure to build a bridge many engineers said was impossible."
+  event_date: "1930-11-04"
+  era: "Depression-Era Construction (1930–1937)"
+  category: "Political & Funding"
+  quote: "The people of the six counties have shown their confidence in the future of this region by voting to build the greatest bridge the world has ever seen."
+  quote_author: "Joseph Strauss"
