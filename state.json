@@ -30,6 +30,11 @@
       "id": "charles-ellis-unsung-engineer-1931",
       "title": "The Engineer Erased from History",
       "date": "1931"
+    },
+    {
+      "id": "scaffold-collapse-1937",
+      "title": "The Day the Safety Net Failed",
+      "date": "1937"
     }
   ],
   "used_images": [
@@ -37,9 +42,10 @@
     "File:San Francisco (CA, USA), Golden Gate Bridge -- 2022 -- 3023 (bw).jpg",
     "File:Golden Gate Bridge Yang Ming Line.jpg",
     "File:Golden Gate Bridge by night.jpg",
-    "File:Golden Gate Bridge at sunset 1.jpg"
+    "File:Golden Gate Bridge at sunset 1.jpg",
+    "File:The Bridge (August 2013).jpg"
   ],
-  "last_run": "2026-03-13T22:48:25.290908",
+  "last_run": "2026-03-13T22:53:46.111274",
   "eras": [
     {
       "name": "The Impossible Dream (1872\u20131916)",
