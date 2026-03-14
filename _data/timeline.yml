@@ -286,3 +286,12 @@
   category: "Political & Funding"
   quote: "If we can't bring the people to the parks, we should bring the parks to the people."
   quote_author: "Phillip Burton"
+
+- id: "modern-wonder-of-the-world-1994"
+  title: "One of Seven Wonders of the Modern World"
+  subtitle: "The American Society of Civil Engineers crowned the Golden Gate Bridge among humanity's greatest modern achievements, placing it alongside the Panama Canal and the Channel Tunnel."
+  event_date: "1994-11-08"
+  era: "Cultural Icon and Dark Symbol (1971–1997)"
+  category: "Cultural & Symbolic"
+  quote: "The Golden Gate Bridge is a structure of such magnificence that it transcends its utilitarian purpose and becomes a work of art."
+  quote_author: "American Society of Civil Engineers"
