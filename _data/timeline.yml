@@ -52,3 +52,12 @@
   category: "Design & Engineering"
   quote: "He was the man most responsible for the design of the bridge, but his name was struck from every official document."
   quote_author: "Henry Petroski"
+
+- id: "scaffold-collapse-1937"
+  title: "The Day the Safety Net Failed"
+  subtitle: "A collapsed scaffold sent twelve men plunging through the Golden Gate's famous safety net, killing ten and ending the bridge's remarkable safety record just months before completion."
+  event_date: "1937-02-17"
+  era: "Depression-Era Construction (1930–1937)"
+  category: "Disasters & Incidents"
+  quote: "I saw the scaffold drop and the net just tore away like it was paper. Those men never had a chance."
+  quote_author: "Chris Hansen, surviving worker"
