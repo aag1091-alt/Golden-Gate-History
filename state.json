@@ -125,6 +125,11 @@
       "id": "return-of-the-ferries-1970",
       "title": "The Return of the Ferries",
       "date": "1970"
+    },
+    {
+      "id": "the-impossible-pier-1934",
+      "title": "The Pier That Defied the Pacific",
+      "date": "1934"
     }
   ],
   "used_images": [
@@ -151,9 +156,10 @@
     "File:San Francisco (CA, USA), Golden Gate Bridge -- 2022 -- 3024 (bw).jpg",
     "File:GoldenGateBridge BakerBeach MC.jpg",
     "File:Amadeo Giannini-1922.jpg",
-    "File:Golden Gate Ferry Logo.jpg"
+    "File:Golden Gate Ferry Logo.jpg",
+    "File:San Francisco Bay, Golden Gate Bridge and Marin Headlands at sunset.jpg"
   ],
-  "last_run": "2026-03-14T00:44:22.033011",
+  "last_run": "2026-03-14T09:18:29.538782",
   "eras": [
     {
       "name": "The Impossible Dream (1872\u20131916)",
