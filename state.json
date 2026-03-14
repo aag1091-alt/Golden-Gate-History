@@ -60,6 +60,11 @@
       "id": "zipper-barrier-2015",
       "title": "The Zipper That Tamed Head-On Death",
       "date": "2015"
+    },
+    {
+      "id": "billionth-car-crossing-1985",
+      "title": "The Billionth Car Across the Golden Gate",
+      "date": "1985"
     }
   ],
   "used_images": [
@@ -73,9 +78,10 @@
     "File:Golden Gate Bridge as seen from Marshall\u2019s Beach, March 2018.jpg",
     "File:Golden Gate bridge 3.jpg",
     "File:Remembering the Loma Prieta Earthquake 25 Years Later (15586202245) (cropped).jpg",
-    "File:Road Zipper 04 2015 Golden Gate SFO 2066.jpg"
+    "File:Road Zipper 04 2015 Golden Gate SFO 2066.jpg",
+    "File:Golden Gate Bridge and San Francisco skyline from Hawk Hill at Blue Hour dllu.jpg"
   ],
-  "last_run": "2026-03-13T23:13:22.396015",
+  "last_run": "2026-03-13T23:30:19.588052",
   "eras": [
     {
       "name": "The Impossible Dream (1872\u20131916)",
