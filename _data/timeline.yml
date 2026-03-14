@@ -97,3 +97,12 @@
   category: "Disasters & Incidents"
   quote: "The bridge was designed for a static concept of wind and weight. Earthquakes were simply not part of the vocabulary in the 1930s."
   quote_author: "Charles Seim, seismic retrofit consulting engineer"
+
+- id: "zipper-barrier-2015"
+  title: "The Zipper That Tamed Head-On Death"
+  subtitle: "A 3,500-ton moveable concrete barrier finally ended decades of fatal head-on collisions on the bridge's undivided roadway."
+  event_date: "2015-01-11"
+  era: "Retrofit and Renewal (1998–2017)"
+  category: "Maintenance & Renovation"
+  quote: "This is the single most significant safety feature added to the Golden Gate Bridge since the day it opened."
+  quote_author: "Denis Mulligan"

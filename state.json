@@ -50,6 +50,11 @@
       "id": "bridge-closes-for-first-time-1951",
       "title": "The Day the Wind Won",
       "date": "1951"
+    },
+    {
+      "id": "loma-prieta-earthquake-test-1989",
+      "title": "The Earthquake the Bridge Survived",
+      "date": "1989"
     }
   ],
   "used_images": [
@@ -61,9 +66,10 @@
     "File:The Bridge (August 2013).jpg",
     "File:Joseph Strauss Memorial.jpg",
     "File:Golden Gate Bridge as seen from Marshall\u2019s Beach, March 2018.jpg",
-    "File:Golden Gate bridge 3.jpg"
+    "File:Golden Gate bridge 3.jpg",
+    "File:Remembering the Loma Prieta Earthquake 25 Years Later (15586202245) (cropped).jpg"
   ],
-  "last_run": "2026-03-13T23:07:23.558258",
+  "last_run": "2026-03-13T23:10:26.091119",
   "eras": [
     {
       "name": "The Impossible Dream (1872\u20131916)",
