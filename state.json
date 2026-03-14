@@ -70,6 +70,11 @@
       "id": "fog-horns-golden-gate-1937",
       "title": "The Foghorns That Guide the Lost",
       "date": "1937"
+    },
+    {
+      "id": "submarine-net-across-the-gate-1942",
+      "title": "The Steel Curtain Beneath the Waves",
+      "date": "1942"
     }
   ],
   "used_images": [
@@ -85,9 +90,10 @@
     "File:Remembering the Loma Prieta Earthquake 25 Years Later (15586202245) (cropped).jpg",
     "File:Road Zipper 04 2015 Golden Gate SFO 2066.jpg",
     "File:Golden Gate Bridge and San Francisco skyline from Hawk Hill at Blue Hour dllu.jpg",
-    "File:San Francisco (CA, USA), Golden Gate Bridge -- 2022 -- 3022.jpg"
+    "File:San Francisco (CA, USA), Golden Gate Bridge -- 2022 -- 3022.jpg",
+    "File:Flickr - Official U.S. Navy Imagery - A helicopter lands during an air show as part of a tiger cruise for family and friends of the crew..jpg"
   ],
-  "last_run": "2026-03-13T23:34:42.765388",
+  "last_run": "2026-03-13T23:37:48.209427",
   "eras": [
     {
       "name": "The Impossible Dream (1872\u20131916)",
